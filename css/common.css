@@ -12,6 +12,7 @@
     --background-color-dark: #a5c7cf;
     --accent-color: #a5c7cf;
     --button-background: white;
+    --highlight-color: red;
     scroll-behavior: smooth;
     font-family: 'DotGothic16', sans-serif;
 }
@@ -28,4 +29,8 @@ a {
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+.highlight {
+    color: var(--highlight-color) !important;
 }
